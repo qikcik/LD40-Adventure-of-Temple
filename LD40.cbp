@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LD40" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug/bin/LD40" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="code/" />
+				<Option object_output="Debug/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Release/bin/LD40" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="code/" />
+				<Option object_output="Release/obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="code/engine/animation.cpp" />
+		<Unit filename="code/engine/animation.hpp" />
+		<Unit filename="code/engine/engine.cpp" />
+		<Unit filename="code/engine/engine.hpp" />
+		<Unit filename="code/engine/engineData.cpp" />
+		<Unit filename="code/engine/engineData.hpp" />
+		<Unit filename="code/engine/rectCollisionMenager.cpp" />
+		<Unit filename="code/engine/rectCollisionMenager.hpp" />
+		<Unit filename="code/engine/scene.hpp" />
+		<Unit filename="code/engine/textureMenager.cpp" />
+		<Unit filename="code/engine/textureMenager.hpp" />
+		<Unit filename="code/game/enemy.cpp" />
+		<Unit filename="code/game/enemy.hpp" />
+		<Unit filename="code/game/enemyManager.cpp" />
+		<Unit filename="code/game/enemyManager.hpp" />
+		<Unit filename="code/game/gameScene.cpp" />
+		<Unit filename="code/game/gameScene.hpp" />
+		<Unit filename="code/game/gui.cpp" />
+		<Unit filename="code/game/gui.hpp" />
+		<Unit filename="code/game/map.cpp" />
+		<Unit filename="code/game/map.hpp" />
+		<Unit filename="code/game/player.cpp" />
+		<Unit filename="code/game/player.hpp" />
+		<Unit filename="code/game/wall.cpp" />
+		<Unit filename="code/game/wall.hpp" />
+		<Unit filename="code/main.cpp" />
+		<Unit filename="code/menu/menuScene.cpp" />
+		<Unit filename="code/menu/menuScene.hpp" />
+		<Unit filename="code/template.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

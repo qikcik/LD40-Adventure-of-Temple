@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7f6027afd8732ead9848570be2a6263f:77279094988f043a045904371c880bcd:543c6bb5ec2a2b6d8621e456889dffe1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="structure.png" width="512" height="512">
+    <sprite n="frame0000.png" x="0" y="0" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0001.png" x="128" y="0" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0002.png" x="256" y="0" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0003.png" x="384" y="0" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0004.png" x="0" y="128" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0005.png" x="128" y="128" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0006.png" x="256" y="128" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0007.png" x="384" y="128" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0008.png" x="0" y="256" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0009.png" x="128" y="256" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0010.png" x="256" y="256" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0011.png" x="384" y="256" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0012.png" x="0" y="384" w="128" h="128" pX="0.5" pY="0.5"/>
+    <sprite n="frame0013.png" x="128" y="384" w="128" h="128" pX="0.5" pY="0.5"/>
+</TextureAtlas>
